@@ -1,0 +1,34 @@
+before the video:
+
+Baseball game:
+Objects: Team(s), Field, Scoreboard
+states of objects:
+
+Team: Roster, Name, Color, Location, Aberviation
+Field: Defender and Offense, who is on the field and where, Bases, Pitcher and Hitter are important roles for the player to play
+Scoreboard: Innings top and bottom,Score (Runs), Outs, Balls and Stikes and maybe stats of players but that maybe a roster issue like RBIs On Base hits, Stike outs, strikes for ptichers
+
+Roster: Players name number role and stats, i think the players would have the most information 
+
+Verbs; Hitting, Pitching, Running, Stealing, Scoring, Catching, Tagging out I think those will be the big info for how to make methods
+Pitching could have various pitches, slider, curve, fast, sinker, knuckle that would and 9 different locations to throw to in the zone to make it difficutl to have the batter hits
+like comapre pertentages of that batters 
+
+
+After vidoe: Baseball Game and triangle drawing
+
+Text Box
+Secret Game Key: Hidden three random digits no repeating digits 0-9
+Your Guess:
+
+Click Play to start in the middle -> changes to balls and strikes Graphic thing to add
+
+digits at the bottom greyed out
+play ball and exit buttons to start the game or exit to the menu
+boi was I way Offense
+
+
+you enter 3 numbers, a ball will be if kyou have a correct digit in the wrong locations
+if you have the right digit in the right location that is a strikes
+
+three strikes game over pop ups disable digits
