@@ -11,7 +11,6 @@ package view;
 import java.awt.BorderLayout;
 import java.awt.Container;
 import java.awt.Dimension;
-import java.awt.Event;
 import java.awt.GridLayout;
 
 import javax.swing.JButton;
@@ -48,6 +47,15 @@ public class MenuScreen
             panel.init();
             window.pack();
             window.setVisible(true);
+        });
+
+        drawingButton.addActionListener(event ->
+        {
+            window.getContentPane().removeAll();
+            var panel = new TriangleDrawingPanel(window);
+            panel.init();
+            window.pack();
+            window.revalidate();
         });
     }
 }
